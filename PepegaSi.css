@@ -523,7 +523,7 @@ div.message > div.msg > div.from > span.un {
 /* Gatsu_DS */
 #user-rollover.id-42613961 .username,
 #chat [data-cid^="42613961-"] span.un.clickable {
-    animation: twitchmod   1s infinite !important;
+    animation: rainbow   1s infinite !important;
 }
 
 #user-rollover.id-42613961 .info .role span:before {
@@ -548,7 +548,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-42613961 .info .role span,
 #user-rollover.id-42613961 .meta .username,
 #user-lists .list.room .user.id-42613961 .name {
-    animation: twitchmod   1s infinite !important;
+    animation: rainbow   1s infinite !important;
 }
 #chat .cm.message.id-42613961,
 #chat .cm.emote.id-42613961 {
@@ -562,5 +562,5 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-42613961 .text {
-    animation: twitchmod   1s infinite !important;
+    animation: rainbow   1s infinite !important;
 }
