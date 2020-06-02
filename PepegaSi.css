@@ -1,0 +1,329 @@
+@import url("");
+
+/* main */
+/* Icon fix :before */
+div.message > div.msg > div.from > span.un {
+    vertical-align: top;
+    horizontal-align: left;
+}
+
+/* Icon fix */
+#user-lists .list.room .user i.icon-chat-dj {
+    top: 6px !important;
+}
+
+#chat-messages .from .icon,
+#chat-messages .from .icon.icon-chat-dj {
+    top: unset !important;
+}
+
+#waitlist .list .user .name i,
+#waitlist .list .user .meta.is-staff .name i.icon-chat-dj {
+    top: 2px !important;
+}
+
+#user-rollover .info .role i.icon-chat-dj {
+    margin-top: unset !important;
+}
+
+#user-lists .list.room .user i {
+    top: 6px !important;
+}
+
+/* RCS Vote Fix */
+
+.community .room-controls {
+    z-index: 1 !important;
+}
+
+.votes-rs {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+
+.community .room-controls--desktop__item .btn-like.clicked {
+    animation: rainbow 1s infinite;
+}
+
+/* Chat */
+
+#chat .welcome {
+    color: #ff0000;
+    border-top: #ff0000 2px dotted;
+    border-left: #ff0000 2px dotted;
+    border-bottom: #ff0000 2px dotted;
+    border-right: #ff0000 2px dotted;
+}
+
+#chat .log {
+    background: rgba(20, 25, 34, 0.78) !important;
+}
+
+/* Fade */
+#chat .cm {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+#chat .emote,
+#chat .mention,
+#chat .message,
+#chat .moderation,
+#chat .skip,
+#chat .system,
+#chat .update,
+#chat .welcome {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+    min-width: 100%;
+}
+
+/* Inline */
+#chat .emote {
+    min-height: 0px !important;
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.emote .msg .text {
+    display: inline !important;
+    padding-left: 2px !important;
+}
+
+.emote .from .un {
+    font-style: oblique;
+}
+
+.emote.role-dj .text {
+    color: #fe8d6a;
+}
+
+.emote.role-bouncer .text {
+    color: #90b0cf;
+}
+
+.emote.role-manager .text {
+    color: #69ddff;
+}
+
+.emote.role-cohost .text {
+    color: #ac76ff;
+}
+
+.emote.role-host .text {
+    color: #ac76ff;
+}
+
+.emote.role-ambassador .text {
+    color: #ff1d82;
+}
+
+.emote.role-admin .text {
+    color: #ff2d2d;
+}
+
+#chat .cm.emote .icon,
+#chat .cm.emote .badge-box,
+.emote .rs-chat-title,
+.emote .rcs-user-info {
+    display: none !important;
+}
+
+#chat .emote .contents,
+.emote .msg .from,
+.emote .msg .text {
+    display: inline !important;
+}
+
+.emote .msg {
+    padding: 6px 6px 6px 16px !important;
+}
+
+.emote .delete-button {
+    padding: 2px 7px 2px 7px !important;
+}
+
+/* Moderation Inline */
+#chat .moderation {
+    min-height: 0px !important;
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.moderation .msg .text {
+    display: inline !important;
+    padding-left: 5px !important;
+}
+
+#chat .cm.moderation .icon,
+#chat .cm.moderation .badge-box,
+.moderation .rs-chat-title,
+.moderation .rcs-user-info,
+.moderation .timestamp {
+    display: none !important;
+}
+
+#chat .moderation .contents,
+.moderation .msg .from,
+.moderation .msg .text {
+    display: inline !important;
+}
+
+.moderation .msg {
+    padding: 6px 6px 6px 16px !important;
+}
+
+/* Border */
+.message.role-dj,
+.emote.role-dj {
+    border-right: #fe8d6a 3px solid !important;
+}
+.message.role-bouncer,
+.emote.role-bouncer {
+    border-left: #90b0cf 3px dotted !important;
+    border-right: #90b0cf 3px dotted !important;
+}
+
+.message.role-manager,
+.emote.role-manager {
+    border-left: #69ddff 3px solid !important;
+    border-right: #69ddff 3px solid !important;
+}
+
+.message.role-cohost,
+.emote.role-cohost {
+    border-left: #ac76ff 3px solid !important;
+    border-right: #ac76ff 3px solid !important;
+}
+
+.message.role-host,
+.emote.role-host {
+    border-left: #ac76ff 3px solid !important;
+    border-right: #ac76ff 3px solid !important;
+}
+
+.message.role-ambassador,
+.emote.role-ambassador {
+    border-left: #ff1d82 2px dotted !important;
+    border-right: #ff1d82 2px dotted !important;
+}
+
+.message.role-admin,
+.emote.role-admin {
+    border-top: #ff2d2d 2px dotted;
+    border-left: #ff2d2d 2px dotted;
+    border-bottom: #ff2d2d 2px dotted;
+    border-right: #ff2d2d 2px dotted;
+}
+
+.message.role-dj:hover,
+.emote.role-dj:hover,
+.message.role-bouncer:hover,
+.emote.role-bouncer:hover,
+.message.role-manager:hover,
+.emote.role-manager:hover,
+.message.role-cohost:hover,
+.emote.role-cohost:hover,
+.message.role-host:hover,
+.emote.role-host:hover,
+.message.role-ambassador:hover,
+.emote.role-ambassador:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.message.role-admin:hover,
+.emote.role-admin:hover {
+    border-left-style: solid;
+    border-right-style: solid;
+    display: inline-block !important;
+}
+
+.message.role-host .msg .text::selection,
+.emote.role-host .msg .text::selection,
+.message.role-host .msg .text::-moz-selection,
+.emote.role-host .msg .text::-moz-selection {
+    color: #ac76ff;
+}
+
+.message.role-cohost .msg .text::selection,
+.emote.role-cohost .msg .text::selection,
+.message.role-cohost .msg .text::-moz-selection,
+.emote.role-cohost .msg .text::-moz-selection {
+    color: #ac76ff;
+}
+
+.message.role-manager .msg .text::selection,
+.emote.role-manager .msg .text::selection,
+.message.role-manager .msg .text::-moz-selection,
+.emote.role-manager .msg .text::-moz-selection {
+    color: #69ddff;
+}
+
+.message.role-bouncer .msg .text::selection,
+.emote.role-bouncer .msg .text::selection,
+.message.role-bouncer .msg .text::-moz-selection,
+.emote.role-bouncer .msg .text::-moz-selection {
+    color: #90b0cf;
+}
+
+.message.role-dj .msg .text::selection,
+.emote.role-dj .msg .text::selection,
+.message.role-dj .msg .text::-moz-selection,
+.emote.role-dj .msg .text::-moz-selection {
+    color: #fe8d6a;
+}
+
+.message.role-user .msg .text::selection,
+.emote.role-user .msg .text::selection,
+.message.role-user .msg .text::-moz-selection,
+.emote.role-user .msg .text::-moz-selection {
+    color: #777f92;
+}
+
+/* Custom */
+
+/* Maiolele */
+#user-rollover.id-43556438 .username,
+#chat [data-cid^="43556438-"] span.un.clickable {
+    animation: rainbow 1s infinite !important;
+}
+
+#user-rollover.id-43556438 .info .role span:after {
+    content: ' / CSS Clown';
+}
+.id-43556438 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="43556438"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-43556438 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-43556438 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/Jaatolt.png") no-repeat !important;
+}
+#user-rollover.id-43556438 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-43556438 .msg .from.bouncer .un,
+.id-43556438 .from .un,
+#chat [data-cid^="43556438-"] span.un.clickable,
+#waitlist .list .user[data-uid="43556438"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-43556438 .info .role span,
+#user-rollover.id-43556438 .meta .username,
+#user-lists .list.room .user.id-43556438 .name {
+    animation: rainbow 1s infinite !important;
+}
+#chat .cm.message.id-43556438,
+#chat .cm.emote.id-43556438 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-43556438:hover,
+#chat .cm.emote.id-43556438:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-43556438 .text {
+    animation: rainbow 1s infinite !important;
+}
