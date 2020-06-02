@@ -519,3 +519,48 @@ div.message > div.msg > div.from > span.un {
 .emote.id-46139813 .text {
     animation: Nerdheim 1s infinite !important;
 }
+
+/* Gatsu_DS */
+#user-rollover.id-42613961 .username,
+#chat [data-cid^="42613961-"] span.un.clickable {
+    animation: rainbow  1s infinite !important;
+}
+
+#user-rollover.id-42613961 .info .role span:before {
+    content: 'Twitch Mod / ';
+}
+
+.id-42613961 .msg .from i.icon-chat-cohost,
+#waitlist .list .user[data-uid="42613961"] .meta.is-staff .name .icon-chat-cohost,
+#user-rollover.id-42613961 .info .role i.icon-chat-host,
+#user-lists .list.room .user.id-42613961 .icon-chat-cohost {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+
+#user-rollover.id-42613961 .meta .thumb {
+    border-color: #14b866 !important;
+}
+
+.id-42613961 .msg .from.cohost .un,
+.id-42613961 .from .un,
+#chat [data-cid^="42613961"] span.un.clickable,
+#waitlist .list .user[data-uid="42613961"] .meta.is-staff .name .icon-chat-cohost + span,
+#user-rollover.id-42613961 .info .role span,
+#user-rollover.id-42613961 .meta .username,
+#user-lists .list.room .user.id-42613961 .name {
+    animation: rainbow  1s infinite !important;
+}
+#chat .cm.message.id-42613961,
+#chat .cm.emote.id-42613961 {
+    border-left: #14b866 3px dotted !important;
+    border-right: #14b866 3px dotted !important;
+}
+#chat .cm.message.id-42613961:hover,
+#chat .cm.emote.id-42613961:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-42613961 .text {
+    animation: rainbow  1s infinite !important;
+}
