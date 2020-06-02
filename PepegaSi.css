@@ -477,3 +477,45 @@ div.message > div.msg > div.from > span.un {
 .emote.id-43912456 .text {
     animation: UomoCiabatta 1s infinite !important;
 }
+
+/* Nerdheim */
+#user-rollover.id-46139813 .username,
+#chat [data-cid^="46139813-"] span.un.clickable {
+    animation: Nerdheim 1s infinite !important;
+}
+
+#user-rollover.id-46139813 .info .role span:after {
+    content: '';
+}
+.id-46139813 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="46139813"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-46139813 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-46139813 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
+}
+#user-rollover.id-46139813 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-46139813 .msg .from.bouncer .un,
+.id-46139813 .from .un,
+#chat [data-cid^="46139813-"] span.un.clickable,
+#waitlist .list .user[data-uid="46139813"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-46139813 .info .role span,
+#user-rollover.id-46139813 .meta .username,
+#user-lists .list.room .user.id-46139813 .name {
+    animation: Nerdheim 10s infinite !important;
+}
+#chat .cm.message.id-46139813,
+#chat .cm.emote.id-46139813 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-46139813:hover,
+#chat .cm.emote.id-46139813:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-46139813 .text {
+    animation: Nerdheim 1s infinite !important;
+}
