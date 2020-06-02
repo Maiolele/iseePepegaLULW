@@ -393,3 +393,87 @@ div.message > div.msg > div.from > span.un {
 .emote.id-43912442 .text {
     animation: twitchmod 1s infinite !important;
 }
+
+/* Darki */
+#user-rollover.id-43912502 .username,
+#chat [data-cid^="43912502-"] span.un.clickable {
+    animation: Darkinhell 1s infinite !important;
+}
+
+#user-rollover.id-43912502 .info .role span:after {
+    content: '';
+}
+.id-43912502 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="43912502"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-43912502 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-43912502 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-43912502 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-43912502 .msg .from.bouncer .un,
+.id-43912502 .from .un,
+#chat [data-cid^="43912502-"] span.un.clickable,
+#waitlist .list .user[data-uid="43912502"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-43912502 .info .role span,
+#user-rollover.id-43912502 .meta .username,
+#user-lists .list.room .user.id-43912502 .name {
+    animation: Darkinhell 1s infinite !important;
+}
+#chat .cm.message.id-43912502,
+#chat .cm.emote.id-43912502 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-43912502:hover,
+#chat .cm.emote.id-43912502:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-43912502 .text {
+    animation: Darkinhell 1s infinite !important;
+}
+
+/* Ciabatta */
+#user-rollover.id-43912456 .username,
+#chat [data-cid^="43912456-"] span.un.clickable {
+    animation: UomoCiabatta 1s infinite !important;
+}
+
+#user-rollover.id-43912456 .info .role span:after {
+    content: '';
+}
+.id-43912456 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="43912456"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-43912456 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-43912456 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-43912456 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-43912456 .msg .from.bouncer .un,
+.id-43912456 .from .un,
+#chat [data-cid^="43912456-"] span.un.clickable,
+#waitlist .list .user[data-uid="43912456"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-43912456 .info .role span,
+#user-rollover.id-43912456 .meta .username,
+#user-lists .list.room .user.id-43912456 .name {
+    animation: UomoCiabatta 1s infinite !important;
+}
+#chat .cm.message.id-43912456,
+#chat .cm.emote.id-43912456 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-43912456:hover,
+#chat .cm.emote.id-43912456:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-43912456 .text {
+    animation: UomoCiabatta 1s infinite !important;
+}
