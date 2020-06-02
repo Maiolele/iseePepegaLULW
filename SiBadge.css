@@ -1,0 +1,51 @@
+/* Custom Badges */
+
+/* General */
+#chat .badge-box i,
+.right-side-wrapper #chat .badge-box .icon-arrow-down {
+    transform: scale(1) !important;
+}
+#chat-messages .badge-box {
+    background: none !important;
+}
+
+/* Maiolele */
+#chat-messages .id-43556438 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-43556438 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-43556438 .badge-box i.bdg,
+#chat-messages .id-43556438 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/M1xf1vn.gif");
+    background-size: cover;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-43556438::before {
+    background-image: url("https://i.imgur.com/LljIswz.gif");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
