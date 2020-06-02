@@ -286,38 +286,59 @@ div.message > div.msg > div.from > span.un {
 
 /* Custom */
 
-/* Maiolele */
+/* Maiolele */ 
 #user-rollover.id-43556438 .username,
 #chat [data-cid^="43556438-"] span.un.clickable {
-    animation: rainbow 1s infinite !important;
+    animation: Maiolele 1s infinite !important;
 }
 
 #user-rollover.id-43556438 .info .role span:after {
-    content: ' / CSS Clown';
+    content: '';
 }
 .id-43556438 .msg .from i.icon-chat-bouncer,
 #waitlist .list .user[data-uid="43556438"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-43556438 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-43556438 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/Jaatolt.png") no-repeat !important;
+    background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
 }
 #user-rollover.id-43556438 .meta .thumb {
-    border-color: #3e3e3e !important;
+    border-color: #69DDFF !important;
 }
-.id-43556438 .msg .from.bouncer .un,
+.id-43556438 .msg .from.manager .un,
 .id-43556438 .from .un,
 #chat [data-cid^="43556438-"] span.un.clickable,
-#waitlist .list .user[data-uid="43556438"] .meta.is-staff .name .icon-chat-bouncer + span,
+#waitlist .list .user[data-uid="43556438"] .meta.is-staff .name .icon-chat-manager + span,
 #user-rollover.id-43556438 .info .role span,
 #user-rollover.id-43556438 .meta .username,
 #user-lists .list.room .user.id-43556438 .name {
-    animation: rainbow 1s infinite !important;
+
+  font-weight: bold;
+  background-image: repeating-linear-gradient(90deg, #69DDFF, #00FF80);
+  background-image: repeating-conic-linear-gradient(90deg, #69DDFF, #00FF80); 
+  background-size: 1000%;
+  background-repeat: repeat;
+  background-color: #f3ec78;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+ animation: Maiolele 10s ease-in-out infinite !important; 
 }
+
 #chat .cm.message.id-43556438,
 #chat .cm.emote.id-43556438 {
-    border-left: #3e3e3e 3px dotted !important;
-    border-right: #3e3e3e 3px dotted !important;
+    border-left: #FF0000 /*#FF1010*/ !important;
+    border-right: #FF0000 /*#FF1010*/ !important;
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+    font-size: 13.2px;
+
 }
+
+#chat .cm.message.id-43556438
+{color: #4BFFA6 ;}
+
 #chat .cm.message.id-43556438:hover,
 #chat .cm.emote.id-43556438:hover {
     border-left-style: solid !important;
@@ -325,5 +346,5 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-43556438 .text {
-    animation: rainbow 1s infinite !important;
-}
+    animation: Maiolele 1s infinite !important;
+} 
