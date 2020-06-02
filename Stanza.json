@@ -2,7 +2,7 @@
         "room": "Dada's Pepegas",
 	 "author": "Maiolele",
         "icon": "https://i.imgur.com/tqUrb6g.gif",
-        "css": "",
+        "css": "https://raw.githubusercontent.com/Maiolele/iseePepegaLULW/master/PepegaSi.css?token=AP2BT2YN4OIEKTADUI4GFBC622REM",
         "rules": {
                 "allowAutorespond": false,
                 "allowAutowoot": true,
